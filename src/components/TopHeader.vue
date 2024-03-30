@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1><br>
+    <h1 class="green" v-on:click="">{{ msg }}</h1><br>
     <h3>
       Heirloom Quality Furniture for Commercial & Residential Spaces <br>
       <div class="links">
@@ -21,6 +21,7 @@ defineProps({
 </template>
 
 <style scoped>
+
 h1 {
   width: 70vw;
   font-weight: 500;

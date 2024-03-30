@@ -8,7 +8,7 @@ body {
 #app {
   display: flex;
   justify-content: center;
-  width: 90vw;
+  width: 100vw;
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
