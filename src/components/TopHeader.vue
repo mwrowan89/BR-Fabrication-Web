@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h1 class="green">{{ msg }}</h1><br>
     <h3>
       Heirloom Quality Furniture for Commercial & Residential Spaces <br>
       <a id="insta" href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener">Instagram</a> &nbsp; || &nbsp;

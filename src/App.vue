@@ -6,20 +6,20 @@ import TopHeader from './components/TopHeader.vue'
 <template>
   <body>
     <header id="header">
-      <img alt="Vue logo" class="logo" src="../src/assets/BR logo.jpg" width="150" height="150" />
+      <img alt="BR logo" class="logo" src="../src/assets/Tree.jpeg" width="200" height="200" />
 
       <div class="wrapper">
         <TopHeader msg="BR Fabrication" />
 
-        <nav>
+        
+      </div>
+    </header>
+    <nav>
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/gallery">Gallery</RouterLink>
           <RouterLink to="/contactUs">Contact Us</RouterLink>
         </nav>
-      </div>
-    </header>
-    <main id="main"></main>
 
     <RouterView />
 
@@ -43,20 +43,28 @@ import TopHeader from './components/TopHeader.vue'
 } */
 
 header {
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 70px;
+  align-items: center;
   line-height: 1.5;
   max-height: 100vh;
+  width: 70vw;
 }
 
 .logo {
-  display: block;
-  position: relative;
-  margin: 0 auto 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin: 0 auto 2rem; */
+  padding: 10px;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
   width: 100%;
   font-size: 12px;
   text-align: center;
@@ -85,10 +93,10 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
+    justify-content: flex-end;
     margin: 0 2rem 0 0;
   }
 
@@ -96,6 +104,7 @@ nav a:first-of-type {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    width: 50vw;
   }
 
   nav {
