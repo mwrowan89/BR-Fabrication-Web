@@ -1,4 +1,5 @@
 /* color palette from <https://github.com/vuejs/theme> */
+
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -83,4 +84,12 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Edu QLD Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap";
 }
