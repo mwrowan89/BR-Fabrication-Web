@@ -1,5 +1,10 @@
 @import './base.css';
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 #app {
   display: flex;
   justify-content: center;
@@ -13,9 +18,10 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(246, 246, 248);
   transition: 0.4s;
   padding: 3px;
+  text-shadow: gray;
 }
 
 @media (hover: hover) {

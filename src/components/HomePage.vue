@@ -1,5 +1,5 @@
 <template>
-    <header>BR Fabricationn</header>
+    <header>BR Fabrication</header>
 </template>
 
 

@@ -9,11 +9,11 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">{{ msg }}</h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <h3>
       Welcome to The World Leader in Cool Shit &nbsp;
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> &nbsp; || &nbsp;
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener">Insta</a> &nbsp; || &nbsp;
+      <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener">FaceBook</a>.
     </h3>
   </div>
 </template>
@@ -23,7 +23,6 @@ h1 {
   width: 70vw;
   font-weight: 500;
   font-size: 5.6rem;
-  position: center;
   top: -10px;
 }
 
@@ -31,10 +30,17 @@ h3 {
   font-size: 2.2rem;
 }
 
+.greetings {
+  width: 80vw;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+}
+
 
 .greetings h1,
 .greetings h3 {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   text-align: center;
 }
@@ -42,7 +48,8 @@ h3 {
 @media (min-width: 1024px) {
   .greetings h1,
   .greetings h3 {
-    text-align: left;
+    display: inline;
+    text-align: center;
   }
 }
 </style>

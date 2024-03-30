@@ -1,26 +1,47 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import TopHeader from './components/TopHeader.vue'
+import ContactUsView from './views/ContactUsView.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <body>
+    <header id="header">
+      <img alt="Vue logo" class="logo" src="../src/assets/BR logo.jpg" width="150" height="150" />
 
-    <div class="wrapper">
-      <TopHeader msg="BR Fabrication" />
+      <div class="wrapper">
+        <TopHeader msg="BR Fabrication" />
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+        <nav>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/contactUs">Contact Us</RouterLink>
+        </nav>
+      </div>
+    </header>
+    <main id="main"></main>
 
-  <RouterView />
+    <RouterView />
+
+  </body>
 </template>
 
 <style scoped>
+/* body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "header header"
+    "main main main"
+    "main main main"
+    "main main main"
+    ;
+    height: 100vh;
+    row-gap: 20px;
+    column-gap: 50px;
+    text-align: center;
+} */
+
 header {
   line-height: 1.5;
   max-height: 100vh;
