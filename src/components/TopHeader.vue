@@ -12,7 +12,7 @@ defineProps({
     <h1 class="green">{{ msg }}</h1><br>
     <h3>
       Heirloom Quality Furniture for Commercial & Residential Spaces <br>
-      <a id="insta" href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener">Instagram</a> &nbsp; || &nbsp;
+      <a id="insta" href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img src="../assets/instaLogo.png" width="30" height="30"/></a> &nbsp; || &nbsp;
       <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener">FaceBook</a>
     </h3>
   </div>
@@ -54,6 +54,7 @@ h3 {
 }
 
 #insta {
+  border-radius: 10px;
   font-family: "Edu QLD Beginner", cursive;
   font-optical-sizing: auto;
   font-weight: weight;
