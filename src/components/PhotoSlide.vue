@@ -10,18 +10,29 @@
     </div>
 </template>
 <script>
-// import IMG_1119.jpg from ''
+import image1 from '@/assets/1.jpg';
+import image2 from '@/assets/2.jpg';
+// import image3 from '@/assets/3.JPG';
+import image4 from '@/assets/4.jpg';
+import image5 from '@/assets/5.jpg';
+import image6 from '@/assets/6.jpeg';
+import image7 from '@/assets/7.jpg';
+import image8 from '@/assets/8.jpg';
+// import image9 from '@/assets/9.JPG';
+// import image10 from '@/assets/10.JPG';
+// import image11 from '@/assets/11.jpg';
+// import image12 from '@/assets/12.JPG';
+// import image13 from '@/assets/13.JPG';
+// import image14 from '@/assets/14.JPG';
+// import image15 from '@/assets/15.JPG';
+// import image16 from '@/assets/16.JPG';
 
 export default {
     name: "Slider",
     data() {
         return {
             images: [
-                
-                "https://cdn.pixabay.com/photo/2015/12/12/15/24/amsterdam-1089646_1280.jpg",
-                "https://cdn.pixabay.com/photo/2016/02/17/23/03/usa-1206240_1280.jpg",
-                "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
-                "https://cdn.pixabay.com/photo/2016/12/04/19/30/berlin-cathedral-1882397_1280.jpg"
+                image1, image2, image4, image5, image6, image7, image8
             ],
             timer: null,
             currentIndex: 0
