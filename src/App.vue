@@ -1,7 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import TopHeader from './components/TopHeader.vue'
-import ContactUsView from './views/ContactUsView.vue';
 </script>
 
 <template>
@@ -15,6 +14,7 @@ import ContactUsView from './views/ContactUsView.vue';
         <nav>
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/gallery">Gallery</RouterLink>
           <RouterLink to="/contactUs">Contact Us</RouterLink>
         </nav>
       </div>
