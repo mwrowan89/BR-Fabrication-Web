@@ -1,8 +1,12 @@
 
 <template>
   <div class="about">
-     
-    <h1>Hey wasup Hello</h1>
+    <img src="../assets/BenSanding.jpg" height="800vh" width="600vw">
+    <h1>From Chef to Table creates one-of-a-kind, American made heirloom quality slab tables and furniture for commercial and residential spaces.
+      Founder Ben Rioux hails from a long line of woodworkers in Maine and spent many years in NYC cooking for some of the
+      biggest outfits in the culinary industry (Executive Chef at NY Stock Exchange, La Grenouille). Now, rather than
+      creating dishes, he harvests the unique pieces on which they're served.
+    </h1>
   </div>
 </template>
 
@@ -10,12 +14,24 @@
 
 export default {
   components: {
-    
+
   }
 }
 </script>
 
 <style scoped>
+.about {
+  display: flex;
+  margin: 100px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;

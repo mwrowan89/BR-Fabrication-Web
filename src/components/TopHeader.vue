@@ -12,8 +12,10 @@ defineProps({
     <h1 class="green">{{ msg }}</h1><br>
     <h3>
       Heirloom Quality Furniture for Commercial & Residential Spaces <br>
-      <a id="insta" href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img src="../assets/instaLogo.png" width="30" height="30"/></a> &nbsp; || &nbsp;
-      <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener">FaceBook</a>
+      <div class="links">
+        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/Screenshot (19).png" width="50" height="50"/></a> &nbsp; || &nbsp;
+        <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/facbook logo.png" width="35" height="35"></a>
+      </div>
     </h3>
   </div>
 </template>
@@ -53,11 +55,18 @@ h3 {
   }
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
 #insta {
-  border-radius: 10px;
-  font-family: "Edu QLD Beginner", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+  margin-top: 4px;
 }
 </style>

@@ -39,13 +39,13 @@ header {
   width: 70vw;
 }
 
-.logo {
+/* .logo {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* margin: 0 auto 2rem; */
+  margin: 0 auto 2rem;
   padding: 10px;
-}
+} */
 
 nav {
   display: flex;
