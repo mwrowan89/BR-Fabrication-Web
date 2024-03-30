@@ -27,20 +27,6 @@ import TopHeader from './components/TopHeader.vue'
 </template>
 
 <style scoped>
-/* body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 
-    "header header"
-    "main main main"
-    "main main main"
-    "main main main"
-    ;
-    height: 100vh;
-    row-gap: 20px;
-    column-gap: 50px;
-    text-align: center;
-} */
 
 header {
   border: 5px solid white;

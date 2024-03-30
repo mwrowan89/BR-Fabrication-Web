@@ -15,8 +15,8 @@
       <label for="question">Question</label>
       <textarea id="question"></textarea>
     </div>
-    <input type="submit" value="Save" />
-    <input type="button" value="Cancel" />
+    <input id="submit" type="submit" value="Save" />
+    <input id="cancel" type="button" value="Cancel" />
   </form>
     </div>
 </template>
@@ -52,18 +52,26 @@ input {
 }
 
 .form-element label {
-  display: block;
+  display: flex;
+  justify-content: center;
+  place-items: center;
 }
 
 .form-element input,
 .form-element select {
-  height: 30px;
-  width: 300px;
+  height: 50px;
+  width: 40rem;
 }
 
 .form-element textarea {
-  height: 60px;
-  width: 300px;
+  height: 100px;
+  width: 40rem;
+}
+
+#submit,
+#cancel {
+  width: 20rem;
+  height: 2rem;
 }
 
 form input[type=button] {
