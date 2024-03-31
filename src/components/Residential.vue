@@ -22,32 +22,32 @@
             </div>
         </span>
         <span>
-            <div class="image-container" >
+            <div class="image-container">
                 <img src="../assets/images/14.png" class="image" />
                 <div class="description">Live Edge Natural Walnut</div>
             </div>
-            <div class="image-container" >
-                <img src="../assets/images/15.png" class="image"/>
+            <div class="image-container">
+                <img src="../assets/images/15.png" class="image" />
                 <div class="description">Solid Ash 86" Round Table</div>
             </div>
         </span>
         <span>
             <div class="image-container">
-                <img src="../assets/images/IMG_1589.jpg" class="image"/>
+                <img src="../assets/images/IMG_1589.jpg" class="image" />
                 <div class="description">Solid Oak Stained Intense Black</div>
             </div>
             <div class="image-container">
-                <img src="../assets/images/16.png" class="image"/>
+                <img src="../assets/images/16.png" class="image" />
                 <div class="description">Solid Ash Side Table</div>
             </div>
         </span>
         <span>
             <div class="image-container">
-                 <img src="../assets/images/1.jpg" class="image"/>
-                 <div class="description">Golden Acacia Dining Table</div>
+                <img src="../assets/images/1.jpg" class="image" />
+                <div class="description">Golden Acacia Dining Table</div>
             </div>
             <div class="image-container">
-                <img src="../assets/images/res3.jpg" class="image"/>
+                <img src="../assets/images/res3.jpg" class="image" />
                 <div class="description">Solid Ash Farm House table with Extensions</div>
             </div>
         </span>
@@ -56,9 +56,9 @@
                 <img src="../assets/images/IMG_1649.jpg" class="image" />
                 <div class="description">Whitewashed Ash Pencil Desk</div>
             </div>
-            
+
             <div class="image-container">
-                <img src="../assets/images/9.png" class="image"/>
+                <img src="../assets/images/9.png" class="image" />
                 <div class="description">Solid Ash Side Table</div>
             </div>
         </span>
@@ -138,5 +138,4 @@ img:hover {
 .image-container:hover .description {
     opacity: 1;
 }
-
 </style>
