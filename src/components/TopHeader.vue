@@ -14,8 +14,8 @@ defineProps({
 </strong>
       <!-- Heirloom Quality Furniture for Commercial & Residential Spaces <br> -->
       <div class="links">
-        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/images/Screenshot (19).png" width="50" height="50"/></a> &nbsp; || &nbsp;
-        <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/images/facbook logo11.png" width="35" height="35"></a>
+        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/images/Screenshot (19).png" width="30" height="30"/></a> &nbsp; || &nbsp;
+        <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/images/facbook logo11.png" width="22" height="22"></a>
       </div>
     </h3>
   </div>
@@ -26,16 +26,17 @@ defineProps({
 h1 {
   width: 70vw;
   font-weight: 500;
-  font-size: 5.6rem;
+  font-size: 3.6rem;
   top: -10px;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
 }
 
 .greetings {
   width: 90vw;
+  height: 20vh;
   text-align: center;
   display: inline-block;
   justify-content: center;
@@ -64,6 +65,8 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
+
 }
 
 a {

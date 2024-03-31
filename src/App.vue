@@ -19,7 +19,7 @@ import TopHeader from './components/TopHeader.vue'
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/gallery">Gallery</RouterLink>
           <RouterLink to="/contactUs">Contact Us</RouterLink>
-        </nav>
+    </nav>
 
     <RouterView />
 
@@ -69,7 +69,7 @@ nav a.router-link-exact-active:hover {
 nav a {
   display: inline-block;
   padding: 0 3rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
   border-left: 1px solid var(--color-border);
 }
 

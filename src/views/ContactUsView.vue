@@ -22,7 +22,8 @@ export default {
 <style scoped>
 
 h1 {
-    font-size: 4rem;
+    margin-top: 40px;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
     justify-content: center;
     margin-left: 150px;
     margin-right: 150px;
+    font-size: 1rem;
 }
 body {
     display: flex;

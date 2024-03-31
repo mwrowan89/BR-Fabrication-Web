@@ -107,7 +107,7 @@ img {
     width: 60vw;
     object-fit: contain;
     margin-bottom: 100px;
-    margin-left: 150px;
+    margin-left: 75px;
     margin-top: 70px;
 }
 
@@ -118,10 +118,10 @@ img {
     top: 40%;
     width: auto;
     padding: 16px;
-    margin: 60px;
+    margin: 80px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     transition: 0.7s ease;
     border-radius: 0 4px 4px 0;
     text-decoration: none;

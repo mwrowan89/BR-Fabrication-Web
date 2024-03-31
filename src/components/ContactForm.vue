@@ -36,7 +36,7 @@
 .contact {
   display: flex;
   width: 30vw;
-  font-size: 2.5rem;
+  font-size: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -57,21 +57,22 @@
 .form-element input,
 .form-element select {
   height: 50px;
-  width: 40rem;
+  width: 30rem;
 }
 
 .form-element textarea {
   height: 100px;
-  width: 40rem;
+  width: 30rem;
 }
 span {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 #submit,
 #cancel {
-  width: 20rem;
+  width: 15rem;
   height: 2rem;
 }
 

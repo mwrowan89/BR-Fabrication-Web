@@ -2,7 +2,7 @@
     <div class="body">
         <h1>Residential</h1><br>
         <span class="first">
-            <img src="../assets/images/1.jpg" />
+            <img src="../assets/images/1.jpg" title="Golden Acacia table"/>
             <img src="../assets/images/10.png" />
         </span>
         <span>

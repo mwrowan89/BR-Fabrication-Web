@@ -17,10 +17,10 @@ body {
 
 footer {
   border-top: 2px solid white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 99vw;
   padding-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
