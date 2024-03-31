@@ -27,6 +27,16 @@ const router = createRouter({
       path: '/gallery',
       name: 'gallery',
       component: () => import('../views/GalleryView.vue')
+    },
+    {
+      path: '/commercial',
+      name: 'commercial',
+      component: () => import ('../components/Commercial.vue')
+    },
+    {
+      path:'/residential',
+      name:'residential',
+      component: () => import('../components/Residential.vue')
     }
   ]
 })

@@ -32,7 +32,7 @@ export default {
     data() {
         return {
             images: [
-                image1, image2, image4, image5, image6, image7, image8
+                image2, image6, image4, image5, image7, image1, image8
             ],
             timer: null,
             currentIndex: 0
@@ -109,6 +109,7 @@ img {
     top: 40%;
     width: auto;
     padding: 16px;
+    margin: 60px;
     color: white;
     font-weight: bold;
     font-size: 18px;

@@ -1,13 +1,34 @@
 <template>
-    <Gallery />
+    <header>
+        <RouterLink to="/residential">
+            <h1>Residential</h1>
+        </RouterLink>
+        &nbsp;&nbsp;||&nbsp;&nbsp;
+        <RouterLink to="/commercial">
+            <h1>Commercial</h1>
+        </RouterLink>
+    </header>
+    <Residential />
+    <Commercial />
 </template>
 
-<script> 
-import Gallery from '../components/Gallery.vue'
+<script>
+import Residential from '../components/Residential.vue';
+import Commercial from '../components/Commercial.vue';
 
 export default {
     components: {
-        Gallery
+        Residential,
+        Commercial
     }
 }
 </script>
+
+<style scoped>
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+</style>
