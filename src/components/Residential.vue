@@ -18,6 +18,14 @@
             <img src="../assets/IMG_1589.jpg" />
             <img src="../assets/16.jpg" />
         </span>
+        <span>
+            <img src="../assets/res1.jpg"/>
+            <img src="../assets/IMG_5538.JPG"/>
+        </span>
+        <span>
+            <img src="../assets/IMG_1649.jpg"/>
+            <img src="../assets/res3.jpg"/>
+        </span>
     </div>
 </template>
 

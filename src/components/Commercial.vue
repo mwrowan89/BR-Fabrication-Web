@@ -2,6 +2,14 @@
     <div class="body">
         <h1>Commercial</h1>
         <br>
+        <span>
+            <img src="../assets/IMG_1779.jpg"/>
+            <img src="../assets/IMG_1780.JPG"/>
+        </span>
+        <span>
+            <img src="../assets/commercial1.jpg"/>
+            <img src="../assets/commercial2.jpg"/>
+        </span>
         <span class="first">
             <img src="../assets/7.jpg" />
             <img src="../assets/2.jpg" />
@@ -15,8 +23,10 @@
             <img src="../assets/6.jpeg" />
         </span>
         <span>
-
-        </span><br><br>
+            <img src="../assets/IMG_9586.JPG"/>
+            <img src="../assets/comercial3.jpg"/>
+        </span>
+        <br><br>
     </div>
 </template>
 
