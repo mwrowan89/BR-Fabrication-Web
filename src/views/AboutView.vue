@@ -22,14 +22,14 @@ export default {
 <style scoped>
 .about {
   display: flex;
-  margin: 100px;
+  margin: 50px;
 }
 
 h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 50px;
 }
 
 header {

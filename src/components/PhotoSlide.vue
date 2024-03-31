@@ -12,7 +12,7 @@
 <script>
 import image1 from '@/assets/1.jpg';
 import image2 from '@/assets/2.jpg';
-// import image3 from '@/assets/3.JPG';
+//import image3 from '@/assets/3.png';
 import image4 from '@/assets/4.jpg';
 import image5 from '@/assets/5.jpg';
 import image6 from '@/assets/6.jpeg';
@@ -45,7 +45,7 @@ export default {
 
     methods: {
         startSlide: function () {
-            this.timer = setInterval(this.next, 10000);
+            this.timer = setInterval(this.next, 5000);
         },
 
         next: function () {
@@ -76,7 +76,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 5s ease;
+    transition: all 1s ease;
     overflow: hidden;
     visibility: visible;
     width: 100%;
@@ -96,6 +96,7 @@ img {
     align-items: center;
     height: 80vh;
     width: 60vw;
+    object-fit: contain;
     margin-bottom: 100px;
     margin-left: 150px;
     margin-top: 70px;

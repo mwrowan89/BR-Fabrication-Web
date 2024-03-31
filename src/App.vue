@@ -6,7 +6,7 @@ import TopHeader from './components/TopHeader.vue'
 <template>
   <body>
     <header id="header">
-      <img alt="BR logo" class="logo" src="../src/assets/Tree.jpeg" width="200" height="200" />
+      <!-- <img alt="BR logo" class="logo" src="../src/assets/Tree.jpeg" width="200" height="200" /> -->
 
       <div class="wrapper">
         <TopHeader msg="BR Fabrication" />
@@ -29,11 +29,13 @@ import TopHeader from './components/TopHeader.vue'
 <style scoped>
 
 header {
-  border: 5px solid white;
+  display: flex;
+  border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   margin-top: 70px;
   align-items: center;
+  justify-content: center;
   line-height: 1.5;
   max-height: 100vh;
   width: 70vw;

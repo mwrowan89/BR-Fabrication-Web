@@ -1,6 +1,6 @@
 <template>
-    <h2>Photos</h2>
-    <p>Hi</p>
+    <h2></h2>
+    <p></p>
 </template>
 
 <script>
