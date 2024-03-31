@@ -4,16 +4,12 @@ import { createStore as _createStore } from 'vuex';
 export function createStore() {
     return _createStore({
         state: {
-            images: [
-              require('@/assets/images/1.jpg'),
-              require('@/assets/images/2.jpg')
-              
-            ],
+            images: [],
         },
         mutations: {},
         actions: {},
         getters: {
-            getImages: state => state.images,
+            // getImages: state => state.images,
           },
         modules: {},
         // Strict should not be used in production code. It is used here as a
