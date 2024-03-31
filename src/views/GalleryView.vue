@@ -31,4 +31,8 @@ header {
     align-items: center;
     font-size: 1rem;
 }
+
+h1 {
+    font-size: 1.5rem;
+}
 </style>

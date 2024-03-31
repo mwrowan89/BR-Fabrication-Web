@@ -14,7 +14,7 @@ defineProps({
 </strong>
       <!-- Heirloom Quality Furniture for Commercial & Residential Spaces <br> -->
       <div class="links">
-        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/images/Screenshot (19).png" width="30" height="30"/></a> &nbsp; || &nbsp;
+        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/images/Screenshot (19).png" width="33" height="33"/></a> &nbsp; || &nbsp;
         <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/images/facbook logo11.png" width="22" height="22"></a>
       </div>
     </h3>
@@ -43,6 +43,7 @@ h3 {
   background-image: url('../assets/images/13.JPG');
   background-repeat: none;
   background-size: 100%;
+  margin-bottom: 15px;
 }
 
 

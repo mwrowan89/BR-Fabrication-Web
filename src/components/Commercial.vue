@@ -55,6 +55,12 @@ img {
     padding: 20px;
 }
 
+img:hover {
+    display: table-caption;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 .body {
     display: flex;
     flex-direction: column;

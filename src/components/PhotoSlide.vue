@@ -39,9 +39,8 @@ export default {
     data() {
         return {
             images: [
-                image16,image18,image15,image21,image17,image23,image20,image24,image12,image14,
+                image16,image18,image15,image12,image17,image23,image20,image24,image21,image14,
                 image10, image9, image11, image3, image2, image6, image4, image5, image7, image1, image8,image22
-        
             ],
             timer: null,
             currentIndex: 0
