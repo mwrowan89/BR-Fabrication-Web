@@ -1,14 +1,15 @@
 <template>
     <div class="body">
+        <br><br><br>
         <h1>Commercial</h1>
         <br>
         <span>
-            <img src="../assets/IMG_1779.jpg"/>
-            <img src="../assets/IMG_1780.JPG"/>
+            <img src="../assets/IMG_1779.jpg" />
+            <img src="../assets/IMG_1780.JPG" />
         </span>
         <span>
-            <img src="../assets/commercial1.jpg"/>
-            <img src="../assets/commercial2.jpg"/>
+            <img src="../assets/commercial1.jpg" />
+            <img src="../assets/commercial2.jpg" />
         </span>
         <span class="first">
             <img src="../assets/7.jpg" />
@@ -23,9 +24,13 @@
             <img src="../assets/6.jpeg" />
         </span>
         <span>
-            <img src="../assets/IMG_9586.JPG"/>
-            <img src="../assets/comercial3.jpg"/>
+            <img src="../assets/IMG_9586.JPG" />
+            <img src="../assets/comercial3.jpg" />
         </span>
+        <br><br>
+        <h2>
+            <RouterLink to="/gallery">Back to Gallery</RouterLink>
+        </h2>
         <br><br>
     </div>
 </template>

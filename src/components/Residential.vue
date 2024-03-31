@@ -1,9 +1,8 @@
 <template>
-
     <div class="body">
         <h1>Residential</h1><br>
         <span class="first">
-            <img src="../assets/8.jpg" /> 
+            <img src="../assets/8.jpg" />
             <img src="../assets/10.jpg" />
         </span>
         <span>
@@ -19,12 +18,12 @@
             <img src="../assets/16.jpg" />
         </span>
         <span>
-            <img src="../assets/res1.jpg"/>
-            <img src="../assets/IMG_5538.JPG"/>
+            <img src="../assets/res1.jpg" />
+            <img src="../assets/IMG_5538.JPG" />
         </span>
         <span>
-            <img src="../assets/IMG_1649.jpg"/>
-            <img src="../assets/res3.jpg"/>
+            <img src="../assets/IMG_1649.jpg" />
+            <img src="../assets/res3.jpg" />
         </span>
     </div>
 </template>
