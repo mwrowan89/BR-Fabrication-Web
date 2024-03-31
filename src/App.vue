@@ -30,8 +30,7 @@ import TopHeader from './components/TopHeader.vue'
 
 header {
   display: flex;
-  border: 2px solid white;
-  border-radius: 10px;
+  border-bottom: 2px solid white;
   padding: 10px;
   margin-top: 70px;
   align-items: center;
@@ -69,7 +68,8 @@ nav a.router-link-exact-active:hover {
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 3rem;
+  font-size: 2rem;
   border-left: 1px solid var(--color-border);
 }
 

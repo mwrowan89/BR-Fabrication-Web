@@ -1,7 +1,7 @@
 
 <template>
   <div class="about">
-    <img src="../assets/BenSanding.jpg" height="800vh" width="600vw">
+    <img src="../assets/images/BenSanding.jpg" height="800vh" width="600vw">
     <h1>From Chef to Table creates one-of-a-kind, American made heirloom quality slab tables and furniture for commercial and residential spaces.
       Founder Ben Rioux hails from a long line of woodworkers in Maine and spent many years in NYC cooking for some of the
       biggest outfits in the culinary industry (Executive Chef at NY Stock Exchange, La Grenouille). Now, rather than

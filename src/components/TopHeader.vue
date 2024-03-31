@@ -10,11 +10,12 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green" v-on:click="">{{ msg }}</h1><br>
-    <h3>
-      Heirloom Quality Furniture for Commercial & Residential Spaces <br>
+    <h3><strong>Heirloom Quality Furniture for Commercial & Residential Spaces <br>
+</strong>
+      <!-- Heirloom Quality Furniture for Commercial & Residential Spaces <br> -->
       <div class="links">
-        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/Screenshot (19).png" width="50" height="50"/></a> &nbsp; || &nbsp;
-        <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/facbook logo11.png" width="35" height="35"></a>
+        <a href="https://www.instagram.com/fromcheftotable/" target="_blank" rel="noopener"><img id="insta" src="../assets/images/Screenshot (19).png" width="50" height="50"/></a> &nbsp; || &nbsp;
+        <a href="https://www.facebook.com/fromcheftotable/?locale=it_IT" target="_blank" rel="noopener"><img src="../assets/images/facbook logo11.png" width="35" height="35"></a>
       </div>
     </h3>
   </div>
@@ -38,7 +39,7 @@ h3 {
   text-align: center;
   display: inline-block;
   justify-content: center;
-  background-image: url('../assets/13.JPG');
+  background-image: url('../assets/images/13.JPG');
   background-repeat: none;
   background-size: 100%;
 }
