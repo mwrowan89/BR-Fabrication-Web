@@ -63,6 +63,9 @@
             </div>
         </span>
     </div>
+    <h2>
+        <RouterLink to="/gallery">Back to Gallery</RouterLink>
+    </h2>
 </template>
 
 <script>
@@ -72,7 +75,8 @@
 
 <style scoped>
 span,
-header {
+header,
+h2 {
     display: flex;
     justify-content: center;
     align-items: center;
