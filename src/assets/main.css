@@ -32,7 +32,7 @@ a,
   color: rgb(246, 246, 248);
   transition: 0.4s;
   padding: 3px;
-  text-shadow: gray;
+  text-shadow: #808080;
 }
 
 @media (hover: hover) {
